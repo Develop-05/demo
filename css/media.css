@@ -1,0 +1,777 @@
+                @media(max-width:1430px) {
+                    .logo {
+                        margin-left: 50px;
+                        margin-right: 250px;
+                    }
+                    .game__desktop {
+                        width: 900px;
+                        height: 500px;
+                        margin-left: 280px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                    }
+                    .instruction-img {
+                        max-width: 1000px;
+                    }
+                    .send-register {
+                        width: 381px;
+                        height: 114px;
+                        background: #A640FE;
+                        border-radius: 70px;
+                        border: none;
+                        outline: none;
+                        font-weight: 200;
+                        font-size: 72px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        display: inline-block;
+                        margin-left: 780px;
+                        margin-top: -205px;
+                        position: absolute;
+                        cursor: pointer;
+                    }
+                }
+                
+                @media(max-width:1370px) {
+                    .option {
+                        max-width: 400px;
+                    }
+                    .answer {
+                        max-width: 400px;
+                    }
+                    .title__option {
+                        margin-left: 25px;
+                    }
+                    .title__answer {
+                        display: inline-block;
+                        margin-left: 350px;
+                        font-weight: 200;
+                        font-size: 64px;
+                        line-height: 85px;
+                        text-align: center;
+                        color: #40474A;
+                    }
+                    .question__suptitle {
+                        font-weight: 200;
+                        font-size: 48px;
+                        line-height: 64px;
+                        color: #40474A;
+                    }
+                    .question__input {
+                        margin-left: 0px;
+                    }
+                }
+                
+                @media(max-width:1250px) {
+                    .link-footer {
+                        margin-right: 50px;
+                    }
+                    .links {
+                        padding-top: 5px;
+                        margin-left: 843px;
+                        display: inline-block;
+                    }
+                }
+                
+                @media(max-width:1220px) {
+                    .game__desktop {
+                        width: 900px;
+                        height: 500px;
+                        margin-left: 120px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                    }
+                }
+                
+                @media(max-width:1180px) {
+                    .send-register {
+                        margin-left: 680px;
+                        margin-top: -205px;
+                    }
+                }
+                
+                @media(max-width:1151px) {
+                    .logo {
+                        margin-left: 30px;
+                        margin-right: 120px;
+                    }
+                    .service__text {
+                        font-weight: normal;
+                        font-size: 28px;
+                        line-height: 44px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .instruction-img {
+                        max-width: 650px;
+                    }
+                    .links {
+                        margin-left: 700px;
+                    }
+                }
+                
+                @media(max-width:1080px) {
+                    .block-line {
+                        margin-bottom: 200px;
+                    }
+                    .send-register {
+                        margin-left: 130px;
+                        margin-top: -205px;
+                    }
+                }
+                
+                @media(max-width:1048px) {
+                    .game__desktop {
+                        width: 800px;
+                        height: 500px;
+                        margin-left: 60px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                    }
+                    .question__input {
+                        max-width: 700px;
+                        margin-left: 100px;
+                    }
+                    .choice2 {
+                        margin-left: 50px;
+                        margin-top: -7px;
+                    }
+                }
+                
+                @media(max-width:998px) {
+                    .menu__list {
+                        display: none;
+                    }
+                    .nav {
+                        padding-bottom: 8px;
+                    }
+                    .top-header {
+                        display: none;
+                    }
+                    .toggle-sidebar {
+                        display: flex;
+                        position: absolute;
+                        padding-top: 60px;
+                        padding-left: 40px;
+                        padding-bottom: 76px;
+                        z-index: 300;
+                        position: fixed;
+                        right: 6%;
+                        top: -5%;
+                    }
+                    .menu-icon-wrapper {
+                        display: block;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                        outline: none;
+                        padding: 0;
+                        background-color: transparent;
+                    }
+                    .menu-icon {
+                        left: 0px;
+                        top: 0px;
+                        position: relative;
+                        width: 30px;
+                        height: 5px;
+                        background-color: #ccc;
+                    }
+                    .menu-icon:before {
+                        position: absolute;
+                        left: 0;
+                        top: -10px;
+                        content: '';
+                        width: 30px;
+                        height: 5px;
+                        background-color: #ccc;
+                        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+                    }
+                    .menu-icon:after {
+                        position: absolute;
+                        left: 0;
+                        top: 10px;
+                        content: '';
+                        width: 30px;
+                        height: 5px;
+                        background-color: #ccc;
+                        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+                    }
+                    .menu-icon.menu-icon-active {
+                        background-color: transparent;
+                    }
+                    .menu-icon.menu-icon-active::before {
+                        transform: rotate(45deg);
+                        top: 0;
+                        transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+                    }
+                    .menu-icon.menu-icon-active::after {
+                        transform: rotate(-45deg);
+                        top: 0;
+                        transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+                    }
+                    .top-header-mobile {
+                        display: block;
+                        background-color: #fff;
+                        left: 0px;
+                        position: relative;
+                        min-width: 300px;
+                        z-index: 10;
+                        min-height: 1070px;
+                        position: fixed;
+                        transform: translateX(-150%);
+                        transition: transform .3s ease-in;
+                        top: 0;
+                    }
+                    .top-header-mobile-active {
+                        transform: translateX(0%);
+                    }
+                    .img__mobile {
+                        display: none;
+                    }
+                    .menu__mobile {
+                        position: absolute;
+                        top: 50px;
+                        right: 70px;
+                    }
+                    .menu__list-item-mobile {
+                        padding-top: 50px;
+                    }
+                    .menu__list-link-mobile {
+                        text-decoration: none;
+                        color: #48555B;
+                        font-size: 24px;
+                    }
+                    .menu__list-link-mobile:hover {
+                        color: #a21dff;
+                        font-weight: 700;
+                    }
+                    .knowlage__content {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .knowlage__content-1part {
+                        /* margin-left: 300px; */
+                        text-align: left;
+                    }
+                    .knowlage__content-2part {
+                        margin-left: -50px;
+                        text-align: left;
+                    }
+                    .knowlage__text {
+                        font-size: 22px;
+                        line-height: 48px;
+                    }
+                    .support__input {
+                        max-width: 500px;
+                    }
+                    .textarea {
+                        max-width: 500px;
+                    }
+                    .label {
+                        max-width: 500px;
+                    }
+                    .knowlage-logo {
+                        margin-bottom: 70px;
+                    }
+                    .change-lang {
+                        background-color: #fff;
+                        border: none;
+                        outline: none;
+                        color: #40474A;
+                        font-weight: 200;
+                        font-size: 36px;
+                        margin-right: 45px;
+                        font-family: colombo;
+                        text-decoration: none;
+                        color: #48555B;
+                        font-size: 24px;
+                        margin-top: 20px;
+                    }
+                    .menu__list-link {
+                        color: #40474A;
+                    }
+                    .change-lang ul>li {
+                        background-color: #c1c1c1;
+                    }
+                }
+                
+                @media(max-width:943px) {
+                    .links {
+                        margin-left: 590px;
+                    }
+                    .option {
+                        max-width: 200px;
+                        font-size: 12px;
+                    }
+                    .answer {
+                        max-width: 200px;
+                        font-size: 12px;
+                    }
+                    .title__option {
+                        margin-left: 25px;
+                        font-size: 48px;
+                    }
+                    .title__answer {
+                        display: inline-block;
+                        margin-left: 50px;
+                        font-weight: 200;
+                        font-size: 48px;
+                        line-height: 85px;
+                        text-align: center;
+                        color: #40474A;
+                    }
+                    .blocks {
+                        margin-left: 0px;
+                    }
+                    .question__suptitle {
+                        font-weight: 200;
+                        font-size: 48px;
+                        line-height: 64px;
+                        color: #40474A;
+                    }
+                    .question__input {
+                        margin-left: 0px;
+                    }
+                }
+                
+                @media(max-width:880px) {
+                    .game__desktop {
+                        width: 800px;
+                        height: 500px;
+                        margin-left: 0px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                    }
+                }
+                
+                @media(max-width:830px) {
+                    .choice2 {
+                        margin-left: 0px;
+                        margin-top: -7px;
+                        display: block;
+                    }
+                    .choice {
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        margin-bottom: 280px;
+                    }
+                    .type {
+                        display: block;
+                        margin-top: -25px;
+                        text-align: center;
+                        font-weight: 200;
+                        font-size: 48px;
+                        line-height: 64px;
+                        color: #40474A;
+                        margin-bottom: 20px;
+                        margin-top: 40px;
+                    }
+                    .link-footer {
+                        margin-right: 10px;
+                    }
+                    .links {
+                        margin-left: 583px;
+                    }
+                }
+                
+                @media(max-width:820px) {
+                    .game__desktop {
+                        width: 700px;
+                        height: 400px;
+                        margin-left: 40px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                    }
+                    .choice {
+                        margin-bottom: 80px;
+                    }
+                }
+                
+                @media(max-width:795px) {
+                    .footer__text {
+                        font-size: 25px;
+                        margin-left: 50px;
+                        margin-top: 30px;
+                    }
+                    .links {
+                        margin-left: 390px;
+                    }
+                }
+                
+                @media(max-width:760px) {
+                    .game__desktop {
+                        width: 700px;
+                        height: 400px;
+                        margin-left: 0px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                        margin-right: 50px;
+                    }
+                    .instruction-img {
+                        max-width: 600px;
+                    }
+                    .instruction-img2 {
+                        margin-top: -70px;
+                    }
+                    .title__create {
+                        font-size: 45px;
+                        line-height: 100%;
+                        margin-bottom: 80px;
+                    }
+                }
+                
+                @media(max-width:720px) {
+                    .game__desktop {
+                        width: 500px;
+                        height: 400px;
+                        margin-left: 100px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                        margin-right: 50px;
+                    }
+                    .instruction-img {
+                        max-width: 450px;
+                    }
+                    .question__input {
+                        max-width: 400px;
+                        margin-left: 80px;
+                    }
+                    .input-register {
+                        max-width: 250px;
+                    }
+                    .send-register {}
+
+                    .knowlage__content-2part {
+                        margin-left: 0px;
+                        text-align: left;
+                    }
+                }
+                
+                @media(max-width:650px) {
+                    .game__desktop {
+                        width: 500px;
+                        height: 400px;
+                        margin-left: 30px;
+                    }
+                    .href__play {
+                        margin-left: 70px;
+                        margin-right: 50px;
+                    }
+                    .size-google {
+                        width: 200px;
+                    }
+                    .size-store {
+                        width: 180px;
+                    }
+                    .knowlage__title {
+                        font-size: 38px;
+                    }
+                    .knowlage__text {
+                        font-size: 20px;
+                        line-height: 150%;
+                    }
+                    .knowlage__img {
+                        margin-bottom: 10px;
+                    }
+                    .knowlage__text {
+                        margin-bottom: 10px;
+                    }
+                    .knowlage__content {
+                        display: flex;
+                        justify-content: space-around;
+                        padding-left: 35px;
+                        padding-right: 35px;
+                    }
+                    .knowlage__img {
+                        width: 270px;
+                    }
+                    .instruction-img {
+                        max-width: 450px;
+                    }
+                    .link-soc {
+                        max-width: 50px;
+                    }
+                    .links {
+                        margin-top: 17px;
+                    }
+                    .toggle-sidebar {
+                        right: 6%;
+                        top: -7%;
+                    }
+                    .form-send {
+                        margin-left: 10px;
+                    }
+                }
+                
+                @media(max-width:550px) {
+                    .game__desktop {
+                        width: 250px;
+                        height: 400px;
+                        margin-left: 130px;
+                    }
+                    .footer__text {
+                        font-size: 18px;
+                        margin-left: 10px;
+                    }
+                    .links {
+                        margin-left: 250px;
+                    }
+                    .link-footer {
+                        margin-right: 5px;
+                    }
+                    .support__input {
+                        max-width: 350px;
+                    }
+                    .textarea {
+                        max-width: 350px;
+                    }
+                    .label {
+                        max-width: 350px;
+                        font-size: 20px;
+                    }
+                    .send {
+                        max-width: 300px;
+                    }
+                    .question__input {
+                        height: 60px;
+                        padding-top: 10px;
+                        padding-left: 10px;
+                        margin-left: 0px;
+                    }
+                    .answer {
+                        max-width: 150px;
+                        max-height: 30px;
+                    }
+                    .option {
+                        max-width: 150px;
+                        height: 30px;
+                    }
+                    .number {
+                        font-size: 20px;
+                        padding-left: 10px;
+                        margin-right: 5px;
+                    }
+                    .question__input {
+                        padding-left: 50px;
+                        padding-left: 5px;
+                    }
+                    .send-register {
+                        width: 250px;
+                        height: 80px;
+                        margin-left: 0;
+                    }
+                    .knowlage-logo {
+                        margin-bottom: 30px;
+                        max-width: 300px;
+                        display: flex;
+                        justify-content: center;
+                        margin-left: 70px;
+                    }
+                    .logo-games {
+                        max-width: 250px;
+                    }
+                    .x {
+                        max-width: 240px;
+                    }
+                }
+                
+                @media(max-width:505px) {
+                    .instruction-img {
+                        max-width: 350px;
+                    }
+                    .instruction-img1 {
+                        margin-left: 1px;
+                    }
+                }
+                
+                @media(max-width:490px) {
+                    .game__desktop {
+                        width: 250px;
+                        height: 400px;
+                        margin-left: 130px;
+                    }
+                    .blocks {
+                        margin-left: 30px;
+                    }
+                    .logo__set {
+                        width: 300px;
+                    }
+                }
+                
+                @media(max-width:460px) {
+                    .game__desktop {
+                        width: 250px;
+                        height: 400px;
+                        margin-left: 80px;
+                    }
+                    .support__suptitle {
+                        font-size: 45px;
+                    }
+
+                    .knowlage-logo{
+                        margin-left: 10px;
+                    }
+                }
+                
+                @media(max-width:420px) {
+                    .game__desktop {
+                        width: 250px;
+                        height: 400px;
+                        margin-left: 80px;
+                    }
+                    .size-google {
+                        width: 150px;
+                    }
+                    .size-store {
+                        width: 130px;
+                    }
+                    .knowlage__text {
+                        font-size: 18px;
+                        line-height: 150%;
+                    }
+                    .instruction-img {
+                        max-width: 300px;
+                    }
+                    .question__input {
+                        padding-left: 50px;
+                        max-width: 300px;
+                        margin-left: 50px;
+                        padding-left: 5px;
+                    }
+                    .title__option {
+                        font-size: 20px;
+                        line-height: 0;
+                    }
+                    .title__answer {
+                        font-size: 20px;
+                        margin-left: 150px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        line-height: 0;
+                    }
+                    .number {
+                        padding-left: -150px;
+                    }
+                    .answer {
+                        max-width: 100px;
+                        max-height: 30px;
+                    }
+                    .option {
+                        max-width: 100px;
+                        height: 30px;
+                    }
+                    .title__answer {
+                        margin-left: 80px;
+                    }
+                    .language-play {
+                        max-width: 300px;
+                        padding-left: 20px;
+                    }
+                    .type-play {
+                        max-width: 300px;
+                        padding-left: 20px;
+                    }
+                    .arrow-bottom3 {
+                        margin-left: 260px;
+                    }
+                    .arrow-bottom4 {
+                        margin-left: 220px;
+                    }
+                }
+                
+                @media(max-width:400px) {
+                    .game__desktop {
+                        width: 250px;
+                        height: 400px;
+                        margin-left: 65px;
+                    }
+                    .service__text {
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 30px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .question__suptitle {
+                        font-size: 25px;
+                    }
+                    .question__input {
+                        margin-left: 0px;
+                    }
+                }
+                
+                @media(max-width:380px) {
+                    .footer__text {
+                        font-size: 16px;
+                        margin-left: 2px;
+                    }
+                    .links {
+                        margin-left: 255px;
+                    }
+                    .link-footer {
+                        margin-right: 5px;
+                    }
+                    .link-soc {
+                        width: 35px;
+                    }
+                    .support__input {
+                        max-width: 285px;
+                    }
+                    .textarea {
+                        max-width: 285px;
+                    }
+                    .label {
+                        max-width: 285px;
+                        font-size: 20px;
+                    }
+                }
+                
+                @media(max-width:375px) {
+                    .logo {
+                        max-width: 220px;
+                    }
+                    .nav {
+                        padding-bottom: 17px;
+                    }
+                    .toggle-sidebar {
+                        right: 6%;
+                        top: -7%;
+                    }
+                    .support__title {
+                        font-size: 64px;
+                        font-weight: 200;
+                        margin-top: 0;
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                
+                @media(max-width:340px) {
+                    .toggle-sidebar {
+                        right: 6%;
+                        top: -9%;
+                    }
+                    .game__desktop {
+                        margin-left: 42.5px;
+                        height: 350px;
+                    }
+                    .support__suptitle {
+                        font-size: 40px;
+                        margin-left: 20px;
+                    }
+                    .footer__inner {
+                        padding-bottom: 25px;
+                    }
+                }

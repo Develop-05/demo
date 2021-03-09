@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-ua.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <title>Mapabox</title>
+</head>
+
+<body>
+    <div class="toggle-sidebar">
+        <button class="menu-icon-wrapper">
+            <div class="menu-icon"></div>
+        </button>
+    </div>
+    
+    <aside class="top-header-mobile">
+        <div class="container">
+            <div class="top__inner-mobile">
+    
+             <nav class="menu__mobile">
+    
+                 <ul class="menu__list-mobile">
+                     <li class="menu__list-item-mobile">
+                        <a href="index-ua.html" class="menu__list-link-mobile lng-menu__list-link-mobile1">Як грати</a>
+                     </li>
+                     <li class="menu__list-item-mobile">
+                         <a href="support-ua.html" class="menu__list-link-mobile lng-menu__list-link-mobile2">Підтримкаa</a>
+                     </li>
+                     <li class="menu__list-item-mobile">
+                         <a href="create-ua.html" class="menu__list-link-mobile lng-menu__list-link-mobile1">Створити</a>
+                     </li>
+
+                     <li class="menu__list-item change-lang"><a class="menu__list-link" href="#">EN</a>
+                        <ul>
+                            <li><a href="create-en.html" class="menu__list-link">EN</a></li>
+                            <li><a href="create-ru.html" class="menu__list-link">RU</a></li>
+                            <li><a href="create-cz.html" class="menu__list-link">CZ</a></li>
+                            <li><a href="create-ua.html" class="menu__list-link">UA</a></li>
+                        </ul>
+                    </li>
+
+                 </ul>
+             </nav>
+            </div>
+        </div>
+    </aside>
+
+
+    <header class="header">
+
+        <nav class="nav">
+            <img class="logo" src="images/logo.svg" alt="">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a href="index-ua.html" class="menu__list-link" >Як грати</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a href="support-ua.html" class="menu__list-link">Підтримка</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a href="create-ua.html" class="menu__list-link">Створити</a>
+                </li>
+
+                <li class="menu__list-item change-lang"><a class="menu__list-link" href="#">EN</a>
+                    <ul>
+                        <li><a href="create-en.html" class="menu__list-link">EN</a></li>
+                        <li><a href="create-ru.html" class="menu__list-link">RU</a></li>
+                        <li><a href="create-cz.html" class="menu__list-link">CZ</a></li>
+                        <li><a href="create-ua.html" class="menu__list-link">UA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <form action="mail.php" method="POST">
+
+    <section class="set__game">
+        <div class="set__inner">
+        <div class="wrapper__logo-set">
+            <img class="logo__set" src="images/logo__set.svg" alt="">
+        </div>
+            <h3 class="title__create lng-title__create">Створіть свій власний мапабо і отримуйте монети за внесок</h3>
+
+
+        <div class="choice">
+            <div class="choice1">
+                <p class="language lng-language">Мова</p>
+                <select class="language-play" name="language" id="language">
+                    <option>Англійська</option>
+                    <option>Чеська</option>
+                    <option>Російська</option>
+                    <option >Українська</option>
+                </select>
+            <span class="arrow-bottom3 arrow-bottom">⯆</span>
+            </div>
+            <div class="choice2">
+                <div class="type lng-type">Тип питання</div>
+                <select class="type-play" name="type" id="type">
+                    <option class="selected lng-general" value="general">Загальний</option>
+                    <option class="selected lng-order" value="Order">замовлення</option>
+                    <option class="selected lng-yes-no" value="Yes/No">Так/ні</option>
+                </select>
+            <span class="arrow-bottom3 arrow-bottom">⯆</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="question">
+        <div class="question__inner">
+            <div class="question__suptitle lng-question__suptitle">Введіть своє питання</div>
+            <textarea class="question__input" type="text" id="question"></textarea>
+            <div class="blocks">
+                <div class="title__option lng-title__option">Options</div>
+                <div class="title__answer lng-title__answer">Answers</div>
+            <div class="block1">
+                <span class="number">1</span><input class="option" type="text" name="option1" id="option1">
+                <input class="answer" type="text"  name="answer1" id="answer1">
+            </div>
+            <div class="block2">
+                <span class="number">2</span><input class="option" type="text" name="option2" id="option2">
+                <input class="answer" type="text"  name="answer2" id="answer2">
+            </div>
+            <div class="block3">
+                <span class="number">3</span><input class="option" type="text" name="optio n3" id="option3">
+                <input class="answer" type="text"  name="answer3" id="answer3">
+            </div>
+            <div class="block4">
+                <span class="number">4</span><input class="option" type="text" name="option4" id="option4">
+                <input class="answer" type="text"  name="answer4" id="answer4">
+            </div>
+            <div class="block5">
+                <span class="number">5</span><input class="option" type="text" name="option5" id="option5">
+                <input class="answer" type="text"  name="answer5" id="answer5">
+            </div>
+            <div class="block6">
+                <span class="number">6</span><input class="option" type="text" name="option6" id="option6">
+                <input class="answer" type="text"  name="answer6" id="answer6">
+            </div>
+            <div class="block7">
+                <span class="number">7</span><input class="option" type="text" name="option7" id="option7">
+                <input class="answer" type="text"  name="answer7" id="oanswer">
+            </div>
+            <div class="block8">
+                <span class="number">8</span><input class="option" type="text" name="option8" id="option8">
+                <input class="answer" type="text"  name="answer8" id="answer8">
+            </div>
+            <div class="block9">
+                <span class="number">9</span><input class="option" type="text" name="option9" id="option9">
+                <input class="answer" type="text"  name="answer9" id="answer9">
+            </div>
+            <div class="block10">
+                <span class="number last-num">10</span><input class="option" type="text" name="option10" id="option10">
+                <input class="answer" type="text"  name="answer10" id="answer10">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="category">
+        <div class="category__inner">
+            <div class="title__category lng-title__category">Виберіть категорію для цього mapabo</div>
+            <div class="choice3">
+                <select class="type-play" name="typePlay" id="typePlay">
+                    <option class="lng-cinema" value="cinema">Кінотеатр</option>
+                    <option class="lng-location" value="Counties/Cities">Округ/Міста</option>
+                    <option class="lng-music" value="Music">Музика</option>
+                    <option class="lng-science" value="Science">Наука</option>
+                    <option class="lng-sport" value="Sport">Спорт</option>
+                    <option class="lng-football" value="Football">Футбол</option>
+                </select>
+            <span class="arrow-bottom arrow-bottom4">⯆</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="register">
+        <div class="register__inner">
+
+                <div class="title__register lng-title__register">Введіть свої контакти</div>
+
+            <div class="block__register">
+                <label class="label__register reg-ru lng-label__register" for="name-register">Імя:</label>
+                <input id="name" class="input-register" name="name" type="text" required>
+            </div>
+
+            <div class="block__register">
+                <label class="label__register lng-label__register2" for="email-register">E-mail:</label>
+                <input id="email" class="input-register input-register2"  name="email" type="email" required>
+            </div>
+
+            <div class="block-line"></div>
+            
+                <input type="submit" class="send-register lng-send-register" value="Отправить">
+
+        </div>
+    </section>
+
+</form>
+
+<footer class="footer">
+    <div class="footer__inner">
+
+        <p class="footer__text lng-footer__text">© 2021 Mapabo. Všechna práva vyhrazena..</p>
+
+
+        <div class="links">
+
+            <a class="link-footer" href="https://www.linkedin.com/company/mapabox">
+                <img class="link-soc" src="images/linked.png" alt="">
+            </a>
+
+            <a class="link-footer" href="https://www.facebook.com/mapaboXclub">
+                <img class="link-soc" src="images/facebook.png" alt="">
+            </a>
+
+        </div>
+
+    </div>
+</footer>
+
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Mapabox</title>
+</head>
+
+<body>
+    <div class="toggle-sidebar">
+        <button class="menu-icon-wrapper">
+            <div class="menu-icon"></div>
+        </button>
+    </div>
+    
+    <aside class="top-header-mobile">
+        <div class="container">
+            <div class="top__inner-mobile">
+    
+             <nav class="menu__mobile">
+    
+                 <ul class="menu__list-mobile ">
+                     <li class="menu__list-item-mobile">
+                        <a href="index-cz.html" class="menu__list-link-mobile lng-menu__list-link-mobile1">Jak hrát</a>
+                     </li>
+                     <li class="menu__list-item-mobile">
+                         <a href="support-cz.html" class="menu__list-link-mobile lng-menu__list-link-mobile2">Podpěra, podpora</a>
+                     </li>
+                     <li class="menu__list-item-mobile">
+                         <a href="create-cz.html" class="menu__list-link-mobile lng-menu__list-link-mobile1">Vytvořit</a>
+                     </li>
+
+                     <li class="menu__list-item change-lang "><a class="menu__list-link" href="#">EN</a>
+                        <ul>
+                            <li><a href="support-en.html" class="menu__list-link">EN</a></li>
+                            <li><a href="support-ru.html" class="menu__list-link">RU</a></li>
+                            <li><a href="support-cz.html" class="menu__list-link">CZ</a></li>
+                            <li><a href="support-ua.html" class="menu__list-link">UA</a></li>
+                        </ul>
+                    </li>
+
+                 </ul>
+             </nav>
+            </div>
+        </div>
+    </aside>
+
+
+    <header class="header">
+
+        <nav class="nav ">
+            <img class="logo" src="images/logo.svg" alt="">
+            <ul class=" cz-menu__list menu__list">
+                <li class="menu__list-item">
+                    <a href="index-cz.html" class="menu__list-link" >Jak hrát</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a href="support-cz.html" class="menu__list-link">Podpěra, podpora</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a href="create-cz.html" class="menu__list-link">Vytvořit</a>
+                </li>
+
+                <li class="menu__list-item change-lang"><a class="menu__list-link" href="#">EN</a>
+                    <ul>
+                        <li><a href="support-en.html" class="menu__list-link">EN</a></li>
+                        <li><a href="support-ru.html" class="menu__list-link">RU</a></li>
+                        <li><a href="support-cz.html" class="menu__list-link">CZ</a></li>
+                        <li><a href="support-ua.html" class="menu__list-link">UA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="support">
+        <div class="support__inner">
+
+            <h1 class="support__title lng-support__title">Podpěra, podpora</h1>
+
+            <h2 class="support__suptitle lng-support__suptitle">Poslat žádost</h2>
+
+        <form class="form-send" action="mail.php" method="POST">
+
+        
+            <label for="email" class="lng-email">e-mail<span>*</span></label>
+            <input class="support__input" id="email" type="email" name="email">
+
+            <label for="version" class="version lng-version">Verze hry</label>
+            <input class="support__input" id="version" type="text" name="version">
+
+            <label for="system" class="system lng-system">Operační systém<span>*</span></label>
+            <select class="support__input" name="system" id="system"> 
+                <option value="web">WEB</option>
+                <option value="Android">Android </option>
+                <option value="IOS">IOS</option>
+            </select>
+            <span class="arrow-bottom">⯆</span>
+
+            <label for="subject" class="subject lng-subject">Předmět<span>*</span></label>
+            <input class="support__input" id="subject" type="text" name="subject">
+
+
+            <label class="text__textarea lng-text__textarea">Popis<span>*</span></label>
+            <textarea class="textarea" name="textarea" id="textarea" cols="255" rows="804"></textarea>
+            
+
+            <div class="des-file lng-des-file">Připojit soubory</div>
+            <label for="myfile" class="label lng-label">řidejte soubory nebo sem přetáhněte</label>
+            <input type="file" class="my file-input file-adapt" id="file" name="file" multiple>
+
+            <input type="submit" value="Poslat" class="send lng-send">
+
+
+        </form>
+
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer__inner">
+
+            <p class="footer__text lng-footer__text">© 2021 Mapabo. Všechna práva vyhrazena..</p>
+
+
+            <div class="links">
+
+                <a class="link-footer" href="https://www.linkedin.com/company/mapabox">
+                    <img class="link-soc" src="images/linked.png" alt="">
+                </a>
+
+                <a class="link-footer" href="https://www.facebook.com/mapaboXclub">
+                    <img class="link-soc" src="images/facebook.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

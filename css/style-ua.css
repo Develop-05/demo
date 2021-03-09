@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: extralight;
+    font-weight: lighter;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: colombo;
+    overflow-x: hidden;
+}
+
+.menu__list-link{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.knowlage__text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu__list{
+    margin-left: -169px;
+}
+.service__text{
+    font-family: 'Montserrat', sans-serif;
+}
+.footer__text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.suptitle__play{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.support__title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.support__suptitle{
+    font-family: 'Montserrat', sans-serif;
+}
+.version{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.system{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subject{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text__textarea{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.des-file{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.title__create{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.language{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.type{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.question__suptitle{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title__option{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title__answer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title__category{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title__register{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reg-ru{
+    font-family: 'Montserrat', sans-serif;
+}
