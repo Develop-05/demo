@@ -29,6 +29,8 @@ body {
     margin: 0 auto;
     font-family: colombo;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 
     background-color: #763bbe;
 }
@@ -461,10 +463,11 @@ select {
 
 /*option931289048^()&)(*&(*&)(__))^^&$%^$#_+(+)_(_)(*_*)(&)(**&)&)(&)(*/
 
-.question {
-    display: flex;
-    justify-content: center;
+
+.question{
     margin-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .question__inner {
@@ -698,4 +701,24 @@ select {
 .knowlage-logo{
     margin: 0; 
     padding-top: 20px;
+}
+
+.support__inner{
+    background-color: #fff;
+}
+
+.set__inner{
+    background-color: #fff;
+}
+
+.question__inner{
+    background-color: #fff;
+}
+
+.category__inner{
+    background-color: #fff;
+}
+
+.register__inner{
+    background-color: #fff;
 }

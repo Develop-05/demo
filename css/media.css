@@ -402,6 +402,10 @@
                     .links {
                         margin-left: 583px;
                     }
+
+                    .choice{
+                        padding-bottom: -0px;
+                    }
                 }
                 
                 @media(max-width:820px) {
