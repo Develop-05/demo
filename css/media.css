@@ -4,9 +4,9 @@
                         margin-right: 250px;
                     }
                     .game__desktop {
-                        width: 900px;
-                        height: 500px;
-                        margin-left: 280px;
+                        width: 1100px;
+                        height: 600px;
+                        margin-left: 120px;
                     }
                     .href__play {
                         margin-left: 70px;
@@ -61,6 +61,33 @@
                     .question__input {
                         margin-left: 0px;
                     }
+
+                    .game__desktop {
+                        width: 1100px;
+                        height: 600px;
+                        margin-left: 80px;
+                    }
+                }
+
+
+                @media(max-width:1280px) {
+                    .game__desktop {
+                        width: 1100px;
+                        height: 600px;
+                        margin-left: 60px;
+                    }
+                }
+
+                
+                @media(max-width:1240px) {
+                    .game__desktop {
+                        display: none;
+                    }
+                    .send-register {
+                        width: 250px;
+                        height: 70px;
+                        font-size: 48px;
+                    }
                 }
                 
                 @media(max-width:1250px) {
@@ -76,9 +103,9 @@
                 
                 @media(max-width:1220px) {
                     .game__desktop {
-                        width: 900px;
-                        height: 500px;
-                        margin-left: 120px;
+                        width: 1100px;
+                        height: 600px;
+                        margin-left: 50px;
                     }
                     .href__play {
                         margin-left: 70px;
@@ -124,8 +151,8 @@
                 
                 @media(max-width:1048px) {
                     .game__desktop {
-                        width: 800px;
-                        height: 500px;
+                        width: 1100px;
+                        height: 600px;
                         margin-left: 60px;
                     }
                     .href__play {
@@ -257,7 +284,6 @@
                         justify-content: center;
                     }
                     .knowlage__content-1part {
-                        /* margin-left: 300px; */
                         text-align: left;
                     }
                     .knowlage__content-2part {
@@ -342,11 +368,6 @@
                 }
                 
                 @media(max-width:880px) {
-                    .game__desktop {
-                        width: 800px;
-                        height: 500px;
-                        margin-left: 0px;
-                    }
                     .href__play {
                         margin-left: 70px;
                     }
@@ -384,11 +405,6 @@
                 }
                 
                 @media(max-width:820px) {
-                    .game__desktop {
-                        width: 700px;
-                        height: 400px;
-                        margin-left: 40px;
-                    }
                     .href__play {
                         margin-left: 70px;
                     }
@@ -409,11 +425,6 @@
                 }
                 
                 @media(max-width:760px) {
-                    .game__desktop {
-                        width: 700px;
-                        height: 400px;
-                        margin-left: 0px;
-                    }
                     .href__play {
                         margin-left: 70px;
                         margin-right: 50px;
@@ -429,14 +440,15 @@
                         line-height: 100%;
                         margin-bottom: 80px;
                     }
+
+                    .send-register {
+                        width: 200px;
+                        height: 50px;
+                        font-size: 36px;
+                    }
                 }
                 
                 @media(max-width:720px) {
-                    .game__desktop {
-                        width: 500px;
-                        height: 400px;
-                        margin-left: 100px;
-                    }
                     .href__play {
                         margin-left: 70px;
                         margin-right: 50px;
@@ -451,7 +463,6 @@
                     .input-register {
                         max-width: 250px;
                     }
-                    .send-register {}
 
                     .knowlage__content-2part {
                         margin-left: 0px;
@@ -460,11 +471,6 @@
                 }
                 
                 @media(max-width:650px) {
-                    .game__desktop {
-                        width: 500px;
-                        height: 400px;
-                        margin-left: 30px;
-                    }
                     .href__play {
                         margin-left: 70px;
                         margin-right: 50px;
@@ -516,13 +522,8 @@
                 }
                 
                 @media(max-width:550px) {
-                    .game__desktop {
-                        width: 250px;
-                        height: 400px;
-                        margin-left: 130px;
-                    }
                     .footer__text {
-                        font-size: 18px;
+                        font-size: 12px;
                         margin-left: 10px;
                     }
                     .links {
@@ -568,8 +569,6 @@
                         padding-left: 5px;
                     }
                     .send-register {
-                        width: 250px;
-                        height: 80px;
                         margin-left: 0;
                     }
                     .knowlage-logo {
@@ -597,11 +596,6 @@
                 }
                 
                 @media(max-width:490px) {
-                    .game__desktop {
-                        width: 250px;
-                        height: 400px;
-                        margin-left: 130px;
-                    }
                     .blocks {
                         margin-left: 30px;
                     }
@@ -611,11 +605,6 @@
                 }
                 
                 @media(max-width:460px) {
-                    .game__desktop {
-                        width: 250px;
-                        height: 400px;
-                        margin-left: 80px;
-                    }
                     .support__suptitle {
                         font-size: 45px;
                     }
@@ -626,11 +615,7 @@
                 }
                 
                 @media(max-width:420px) {
-                    .game__desktop {
-                        width: 250px;
-                        height: 400px;
-                        margin-left: 80px;
-                    }
+
                     .size-google {
                         width: 150px;
                     }
@@ -692,11 +677,6 @@
                 }
                 
                 @media(max-width:400px) {
-                    .game__desktop {
-                        width: 250px;
-                        height: 400px;
-                        margin-left: 65px;
-                    }
                     .service__text {
                         font-weight: normal;
                         font-size: 22px;
@@ -714,7 +694,7 @@
                 
                 @media(max-width:380px) {
                     .footer__text {
-                        font-size: 16px;
+                        font-size: 12px;
                         margin-left: 2px;
                     }
                     .links {
@@ -762,10 +742,6 @@
                     .toggle-sidebar {
                         right: 6%;
                         top: -9%;
-                    }
-                    .game__desktop {
-                        margin-left: 42.5px;
-                        height: 350px;
                     }
                     .support__suptitle {
                         font-size: 40px;

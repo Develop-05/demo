@@ -124,8 +124,8 @@ h2 {
 }
 
 .game__desktop {
-    width: 1101px;
-    height: 619px;
+    width: 1110px;
+    height: 600px;
     background-color: #40474A;
     margin-left: 179px;
     display: flex;
@@ -137,6 +137,8 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+
 
 .instruction-img1 {
     margin-left: 60px;

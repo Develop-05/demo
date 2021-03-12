@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="css/style-ru.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
     <title>Mapabox</title>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Mapabo.json", {onProgress: UnityProgress});
+    </script>
 </head>
 
 <body>
@@ -89,7 +96,18 @@
 
             <div class="game__field">
 
-                <div class="game__desktop"></div>
+                <div class="game__desktop">
+
+                    <div class="webgl-content">
+                        <div id="unityContainer" style="width:1110px; height: 620px"></div>
+                        <div class="footer">
+                          <div class="webgl-logo"></div>
+                          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                          <div class="title">ClientMapaboKviz</div>
+                        </div>
+                      </div>
+
+                </div>
             
             <div class="href__play">
             <a href="" class="href-soc-google">
@@ -168,7 +186,7 @@
     <footer class="footer">
         <div class="footer__inner">
 
-            <p class="footer__text lng-footer__text">© 2021 Mapabo. Všechna práva vyhrazena..</p>
+            <p class="footer__text lng-footer__text">© 2021 Мапабо. Все права защищены..</p>
 
 
             <div class="links">
