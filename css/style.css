@@ -63,6 +63,11 @@ h2 {
     display: flex;
 }
 
+.href__logo{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 .menu-icon-wrapper {
     display: none;
 }
@@ -73,7 +78,7 @@ h2 {
 
 .logo {
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 50px;
     margin-right: 425px;
 }
 
@@ -136,7 +141,13 @@ h2 {
     justify-content: center;
 }
 
+.instruction-img1 {
+    max-width: 1200px;
+}
 
+.instruction-img2 {
+    max-width: 1200px;
+}
 
 .instruction-img1 {
     margin-left: 60px;
