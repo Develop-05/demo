@@ -67,6 +67,11 @@
                         height: 600px;
                         margin-left: 80px;
                     }
+
+                    .answer-select{
+                        padding-left:175px;
+                        font-size: 36px;
+                    }
                 }
 
 
@@ -365,6 +370,19 @@
                     .question__input {
                         margin-left: 0px;
                     }
+
+                    .answer-select{
+                        padding-left:70px;
+                        font-size: 36px;
+                    }
+
+                    .option {
+                        border: 2px solid #9B26FF;
+                    }
+
+                    .answer{
+                        border: 2px solid #9B26FF;
+                    }
                 }
                 
                 @media(max-width:880px) {
@@ -588,6 +606,16 @@
                     .x {
                         max-width: 240px;
                     }
+
+                    .answer-select{
+                        padding-left:20px;
+                        font-size: 11px;
+                        padding-top: 0;
+                    }
+
+                    .arrow-bottom5{
+                        padding-top: 13px;
+                    }
                 }
                 
                 @media(max-width:505px) {
@@ -720,6 +748,20 @@
                         max-width: 285px;
                         font-size: 20px;
                     }
+
+                    .block__register-email{
+                        margin-top: 30px;
+                    }
+
+                    .input-register2 {
+                        margin-left: 20px;
+                        margin-top: 5px;
+                        margin-bottom: 62px;
+                    }
+
+                    .send-register{
+                        margin-left: 20px;
+                    }
                 }
                 
                 @media(max-width:375px) {
@@ -740,6 +782,12 @@
                         display: flex;
                         justify-content: center;
                     }
+
+                    .question__input{
+                        margin-left: 40px;
+                    }
+
+
                 }
                 
                 @media(max-width:340px) {
@@ -753,5 +801,9 @@
                     }
                     .footer__inner {
                         padding-bottom: 25px;
+                    }
+
+                    .question__input{
+                        margin-left:10px;
                     }
                 }

@@ -521,6 +521,12 @@ select {
     padding-left: 10px;
 }
 
+.number10{
+    margin-right: 0px;
+    padding-left: 5px;
+}
+
+
 .last-num {
     margin-right: 0px;
 }
@@ -717,4 +723,20 @@ select {
 
 .register__inner{
     background-color: #fff;
+}
+
+.size-ans {
+    padding-left: 100px;
+    font-size: 48px;
+}
+
+.answer-select{
+    padding-left:275px;
+    font-size: 36px;
+}
+
+
+.arrow-bottom5 {
+    padding-left: -200px;
+    padding-top: 20px;
 }
