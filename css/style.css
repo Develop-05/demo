@@ -135,10 +135,10 @@ h2 {
 
 .game__desktop {
     background-color: #40474A;
-    margin-left: 179px;
+    margin-left: 779px;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    position: absolute;
 }
 
 .href__play {
