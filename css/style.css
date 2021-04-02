@@ -59,6 +59,11 @@ h2 {
     margin-bottom: 95px;
 }
 
+.animate__video{
+    display: flex;
+    justify-content: center;
+}
+
 .menu__list {
     display: flex;
 }
